@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Finanzas Personales</title>
+</head>
+<body>
+    <h1>Finanzas</h1>
+    <div>
+        <input type="number" name="" id=""> <button onclick="ingreso()">Ingresar</button>
+    </div>
+    <div> 
+    <input type="number" name="" id=""> <button onclick="egreso()">Egresar</button>
+    </div>
+    <div id="paneles">
+      <div>
+        Gastado <span id="gastado">0</span>
+      </div>
+      <div>
+        Ingresado <span id="ingresado">0</span>
+      </div>
+      <div>
+        Balance <span id="balance">0</span>
+      </div>
+    </div>
+    <div id="wrapperChart">
+    <canvas id="myChart" width="400" height="400"></canvas>
+    </div>
+    <script src="program.js"></script>
+</body>
+</html>
